@@ -10,7 +10,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "YOUR_VERCEL_URL",
+    origin: "https://prep-n-place.vercel.app",
   })
 );
 app.use(express.json());
